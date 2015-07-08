@@ -64,8 +64,8 @@
         "url": "http://www.bibliovalle.gov.co/",
         "sameAs" : [
             "https://twitter.com/Bibliovalle",
-            "https://www.facebook.com/bibliotecadptal.valle",
-        ]
+            "https://www.facebook.com/bibliotecadptal.valle"
+        ],
         "name" : "Biblioteca Departamental Jorge Garcés Borrero",
         "address" :
         {
@@ -106,7 +106,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" itemprop="name" href="#page-top">CaliDev</a>
+                <a class="navbar-brand page-scroll" href="#page-top">CaliDev</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -139,7 +139,7 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">
-                    <h1>CaliDev, Comunidad de Desarrolladores Cali, Colombia</h1>
+                    <h1 itemprop="name">CaliDev, Comunidad de Desarrolladores Cali, Colombia</h1>
                 </div>
                 <div class="intro-heading">¡&Uacute;nete, Ahora es el momento!</div>
                 <a href="http://www.meetup.com/es/CaliDev-Meetup/" class="page-scroll btn btn-primary btn-xl">¡Deseo asistir!</a>
@@ -197,64 +197,73 @@
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+                        <li itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" itemprop="image" src="img/about/1.jpg" alt="Data Science Essentials">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Data Science Essentials</h4>
+                                    <h4 itemprop="name">Data Science Essentials</h4>
                                     <h4 class="subheading">Machine Learning, PySpark, MLLib y Apache Spark.</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">En esta charla se cubrirán los elementos esenciales en Data Science. Desde la base academica, pasando por el estado del arte en herramientas para Data Science hasta un ejemplo de Machine Learning con <a href="https://spark.apache.org/mllib/">MLLib</a> (<a href="https://spark.apache.org/docs/0.9.0/python-programming-guide.html">PySpark</a>) de <a href="https://spark.apache.org/">Apache Spark</a></p>
+                                    <p itemprop="description" class="text-muted">En esta charla se cubrirán los elementos esenciales en Data Science. Desde la base academica, pasando por el estado del arte en herramientas para Data Science hasta un ejemplo de Machine Learning con <a href="https://spark.apache.org/mllib/">MLLib</a> (<a href="https://spark.apache.org/docs/0.9.0/python-programming-guide.html">PySpark</a>) de <a href="https://spark.apache.org/">Apache Spark</a></p>
+                                    <p itemprop="performer" itemscope itemtype="http://schema.org/Person">
+                                        Por <span itemprop="name">Daniel Valencia</span>
+                                    </p>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li itemprop="subEvent" itemscope itemtype="http://schema.org/Event" class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/angular-ionic-cordova.jpg" alt="El qu&eacute;, c&oacute;mo y para qu&eacute; de Ionic Framework">
+                                <img class="img-circle img-responsive" itemprop="image" src="img/about/angular-ionic-cordova.jpg" alt="El qu&eacute;, c&oacute;mo y para qu&eacute; de Ionic Framework">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>El qu&eacute;, c&oacute;mo y para qu&eacute; de Ionic Framework</h4>
+                                    <h4 itemprop="name">El qu&eacute;, c&oacute;mo y para qu&eacute; de Ionic Framework</h4>
                                     <h4 class="subheading">AngularJS, Apache Cordova, SASS</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Una breve introducci&oacute;n al desarrollo de aplicaciones m&oacute;viles h&iacute;bridas haciendo &eacute;nfasis en el uso de <a href="http://ionicframework.com/" target="_blank">Ionic</a> como herramienta principal en nuestros proyectos.</p>
+                                    <p itemprop="description" class="text-muted">Una breve introducci&oacute;n al desarrollo de aplicaciones m&oacute;viles h&iacute;bridas haciendo &eacute;nfasis en el uso de <a href="http://ionicframework.com/" target="_blank">Ionic</a> como herramienta principal en nuestros proyectos.</p>
+                                    <p itemprop="performer" itemscope itemtype="http://schema.org/Person">
+                                        Por <span itemprop="name">Richard Melo</span>
+                                    </p>
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li itemprop="subEvent" itemscope itemtype="http://schema.org/Event">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+                                <img class="img-circle img-responsive" itemprop="image" src="img/about/3.jpg" alt="Una Simple API en Ruby">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Una Simple API en Ruby</h4>
+                                    <h4 itemprop="name">Una Simple API en Ruby</h4>
                                     <h4 class="subheading">Ruby/Rails/API's</h4>
                                 </div>
                                 <div class="timeline-body">
-                                  <p class="text-muted">
+                                  <p itemprop="description" class="text-muted">
                                     Esta es una charla sobre c&oacute;mo construir una API b&aacute;sica, y que herramientas existen en el ecosistema de Ruby para lograrlo.
                                     <br/><a href="https://www.ruby-lang.org" target="_blank">I Love Ruby!</a> - 
                                     <a href="http://rubyonrails.org/" target="_blank">Ruby On Rails</a>  -
                                     <a href="http://www.sinatrarb.com/" target="_blank">Sinatra</a>
                                   </p>
+                                  <p itemprop="performer" itemscope itemtype="http://schema.org/Person">
+                                    Por <span itemprop="name">Moises Vargas</span>
+                                    </p>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
+                        <li itemprop="subEvent" itemscope itemtype="http://schema.org/Event" class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
+                                <img class="img-circle img-responsive" itemprop="image" src="img/about/4.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>July 2014</h4>
+                                    <h4 itemprop="name">July 2014</h4>
                                     <h4 class="subheading">Phase Two Expansion</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p itemprop="description" class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
                                 </div>
                             </div>
                         </li>
