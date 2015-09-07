@@ -157,6 +157,7 @@
 
     <!-- Header -->
     <header>
+        <div id="video"></div>
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">
@@ -513,6 +514,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/jquery.youtubebackground.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
@@ -529,6 +531,10 @@
 
       ga('create', 'UA-31850895-3', 'auto');
       ga('send', 'pageview');
+
+      $('#video').YTPlayer({
+        videoId: 'tSms6HHyp7Y'
+      });
 
     </script>
 </body>
