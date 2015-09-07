@@ -55,6 +55,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/agency.css" rel="stylesheet">
+    <script src="js/modernizr.js"></script>
 
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -532,9 +533,11 @@
       ga('create', 'UA-31850895-3', 'auto');
       ga('send', 'pageview');
 
-      $('#video').YTPlayer({
-        videoId: 'tSms6HHyp7Y'
-      });
+      if (Modernizr.webgl){
+        $('#video').YTPlayer({
+            videoId: 'tSms6HHyp7Y'
+        });
+      }
 
     </script>
 </body>
