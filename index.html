@@ -533,7 +533,7 @@
       ga('create', 'UA-31850895-3', 'auto');
       ga('send', 'pageview');
 
-      if (Modernizr.webgl){
+      if (!Modernizr.touch){
         $('#video').YTPlayer({
             videoId: 'tSms6HHyp7Y'
         });
