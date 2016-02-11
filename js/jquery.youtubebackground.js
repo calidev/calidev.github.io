@@ -26,7 +26,7 @@ if (typeof Object.create !== "function") {
       var tag = document.createElement('script'),
       head = document.getElementsByTagName('head')[0];
 
-      tag.src = 'http://www.youtube.com/iframe_api';
+      tag.src = 'https://www.youtube.com/iframe_api';
 
       head.appendChild(tag);
 
