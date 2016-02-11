@@ -113,6 +113,13 @@
       }
     }
     </script>
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
+
+    <script type="text/javascript">
+        var host = "yoursite.com";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+    </script>
 
 </head>
 
@@ -144,9 +151,9 @@
                     <li>
                         <a class="page-scroll" href="#about">Agenda</a>
                     </li>
-                    <!--li>
+                    <li>
                         <a class="page-scroll" href="#team">Ponentes</a>
-                    </li-->
+                    </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contacto</a>
                     </li>
